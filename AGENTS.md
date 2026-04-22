@@ -28,3 +28,34 @@
 ## Changelog
 - Update `CHANGELOG.md` after every meaningful change.
 - Format: add a bullet under `## Unreleased` describing what changed.
+
+
+## Art Direction For V0.1 — Geometric Flat
+- The target aesthetic is Geometric Flat. Dark background, solid filled shapes, no outlines, no gradients, no textures. Color alone carries all the visual weight.
+- The SVG snippet below is the canonical reference. When in doubt about how something should look, come back to this. Match this energy.
+
+<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="320" height="200" fill="#1a1a2e" />
+
+  <!-- Ground / floor -->
+  <rect x="0" y="160" width="320" height="40" fill="#16213e" />
+
+  <!-- Platform — subtle, darker than bg, no outline -->
+  <rect x="60" y="130" width="80" height="12" fill="#0f3460" />
+
+  <!-- Player — triangle, bright accent, no outline -->
+  <!-- Pointing right by default. Rotate to face cursor at runtime. -->
+  <polygon points="85,98 107,114 85,130" fill="#e94560" />
+
+  <!-- Basic enemy — circle, warm contrast color, no outline -->
+  <circle cx="228" cy="98" r="13" fill="#f5a623" />
+
+  <!-- Collectible / point of interest — small, high contrast -->
+  <rect x="265" y="90" width="10" height="10" fill="#00d4ff" rx="1" />
+
+  <!-- Hazard — dark, recessive, still readable -->
+  <polygon points="140,160 150,140 160,160" fill="#533483" />
+
+</svg>
