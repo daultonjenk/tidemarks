@@ -20,13 +20,6 @@
 - Save path: `user://tidemarks_save.json`.
 - Call `SaveLoad.save_game()` after every state-changing player action.
 
-## Scope Constraints (V1)
-- Maximum 4 ports. Do not add more without explicit instruction.
-- Maximum 8 goods. Do not add more without explicit instruction.
-- No combat system. No stamina system. No monetization mechanics. Ever.
-- No active sailing minigame in V1.
-- No cloud save, no external networking of any kind.
-
 ## Art & Assets
 - Placeholder art only in V1. `ColorRect` and `Label` nodes are fully acceptable.
 - Do not import or reference external image assets unless explicitly requested.
