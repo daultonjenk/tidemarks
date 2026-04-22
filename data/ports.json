@@ -1,0 +1,6 @@
+[
+  { "id": "port_haven",    "name": "Haven",    "specialty": "grain", "position": { "x": 100, "y": 150 } },
+  { "id": "port_ironhold", "name": "Ironhold", "specialty": "iron",  "position": { "x": 400, "y": 100 } },
+  { "id": "port_thalwick", "name": "Thalwick", "specialty": "fish",  "position": { "x": 300, "y": 350 } },
+  { "id": "port_silkport", "name": "Silkport", "specialty": "cloth", "position": { "x": 150, "y": 300 } }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "uneventful",
+    "weight": 60,
+    "type": "neutral",
+    "description": "The crossing was uneventful.",
+    "effect": null
+  },
+  {
+    "id": "pirates",
+    "weight": 10,
+    "type": "negative",
+    "description": "Pirates raided the hold! Some cargo was lost.",
+    "effect": { "cargo_loss_percent": 25 }
+  },
+  {
+    "id": "storm",
+    "weight": 5,
+    "type": "negative",
+    "description": "A fierce storm battered the ship. Repair costs incurred.",
+    "effect": { "gold_loss_flat": 15 }
+  },
+  {
+    "id": "salvage",
+    "weight": 10,
+    "type": "positive",
+    "description": "Found drifting cargo! A random good was salvaged.",
+    "effect": { "bonus_good": "random", "bonus_qty": 2 }
+  },
+  {
+    "id": "friendly_merchant",
+    "weight": 10,
+    "type": "positive",
+    "description": "Met a friendly merchant who offered a deal at the next port.",
+    "effect": { "discount_next_port_percent": 10 }
+  },
+  {
+    "id": "fair_winds",
+    "weight": 5,
+    "type": "positive",
+    "description": "Fair winds filled the sails. Arrived ahead of schedule!",
+    "effect": { "travel_time_reduction_percent": 25 }
+  }
+]
