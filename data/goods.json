@@ -1,0 +1,8 @@
+[
+  { "id": "grain",  "name": "Grain",  "home_port": "port_haven",    "base_price": 10 },
+  { "id": "iron",   "name": "Iron",   "home_port": "port_ironhold",  "base_price": 25 },
+  { "id": "fish",   "name": "Fish",   "home_port": "port_thalwick",  "base_price": 8  },
+  { "id": "cloth",  "name": "Cloth",  "home_port": "port_silkport",  "base_price": 18 },
+  { "id": "spice",  "name": "Spice",  "home_port": null,             "base_price": 40 },
+  { "id": "timber", "name": "Timber", "home_port": null,             "base_price": 15 }
+]
